@@ -1,0 +1,100 @@
+In file included from /home/tomas/systemc_2_2_install/include/sysc/kernel/sc_module.h:110:0,
+                 from /home/tomas/systemc_2_2_install/include/systemc:55,
+                 from /home/tomas/systemc_2_2_install/include/systemc.h:237,
+                 from main.cpp:8:
+/home/tomas/systemc_2_2_install/include/sysc/kernel/sc_process.h:146:18: warning: unused parameter ‘thread_p’ [-Wunused-parameter]
+     virtual void signal(sc_thread_handle thread_p, int type) {}
+                  ^
+/home/tomas/systemc_2_2_install/include/sysc/kernel/sc_process.h:146:18: warning: unused parameter ‘type’ [-Wunused-parameter]
+In file included from /home/tomas/systemc_2_2_install/include/sysc/datatypes/fx/sc_fxdefs.h:51:0,
+                 from /home/tomas/systemc_2_2_install/include/sysc/datatypes/fx/scfx_ieee.h:49,
+                 from /home/tomas/systemc_2_2_install/include/sysc/kernel/sc_time.h:49,
+                 from /home/tomas/systemc_2_2_install/include/sysc/kernel/sc_module.h:113,
+                 from /home/tomas/systemc_2_2_install/include/systemc:55,
+                 from /home/tomas/systemc_2_2_install/include/systemc.h:237,
+                 from main.cpp:8:
+/home/tomas/systemc_2_2_install/include/sysc/datatypes/int/sc_nbutils.h:907:1: warning: unused parameter ‘vnb’ [-Wunused-parameter]
+ copy_digits_unsigned(small_type &us, 
+ ^
+/home/tomas/systemc_2_2_install/include/sysc/datatypes/int/sc_nbutils.h:954:1: warning: unused parameter ‘v’ [-Wunused-parameter]
+ is_bad_double(double v)
+ ^
+In file included from /home/tomas/systemc_2_2_install/include/systemc:55:0,
+                 from /home/tomas/systemc_2_2_install/include/systemc.h:237,
+                 from main.cpp:8:
+/home/tomas/systemc_2_2_install/include/sysc/kernel/sc_module.h:361:10: warning: unused parameter ‘expr’ [-Wunused-parameter]
+     void watching( bool expr )
+          ^
+In file included from /home/tomas/systemc_2_2_install/include/sysc/communication/sc_buffer.h:81:0,
+                 from /home/tomas/systemc_2_2_install/include/systemc:60,
+                 from /home/tomas/systemc_2_2_install/include/systemc.h:237,
+                 from main.cpp:8:
+/home/tomas/systemc_2_2_install/include/sysc/communication/sc_signal.h:385:10: warning: unused parameter ‘tf’ [-Wunused-parameter]
+     void trace( sc_trace_file* tf ) const
+          ^
+/home/tomas/systemc_2_2_install/include/sysc/communication/sc_signal.h:627:10: warning: unused parameter ‘tf’ [-Wunused-parameter]
+     void trace( sc_trace_file* tf ) const
+          ^
+In file included from /home/tomas/systemc_2_2_install/include/sysc/datatypes/bit/sc_bv_base.h:50:0,
+                 from /home/tomas/systemc_2_2_install/include/sysc/datatypes/bit/sc_lv_base.h:56,
+                 from /home/tomas/systemc_2_2_install/include/sysc/datatypes/bit/sc_lv.h:49,
+                 from /home/tomas/systemc_2_2_install/include/sysc/communication/sc_signal_rv.h:61,
+                 from /home/tomas/systemc_2_2_install/include/systemc:74,
+                 from /home/tomas/systemc_2_2_install/include/systemc.h:237,
+                 from main.cpp:8:
+/home/tomas/systemc_2_2_install/include/sysc/datatypes/bit/sc_bit_proxies.h:716:16: warning: reference ‘m_obj’ cannot be declared ‘mutable’ [-fpermissive]
+     mutable X& m_obj;
+                ^
+/home/tomas/systemc_2_2_install/include/sysc/datatypes/bit/sc_bit_proxies.h:1193:18: warning: reference ‘m_left’ cannot be declared ‘mutable’ [-fpermissive]
+     mutable X&   m_left;
+                  ^
+/home/tomas/systemc_2_2_install/include/sysc/datatypes/bit/sc_bit_proxies.h:1194:18: warning: reference ‘m_right’ cannot be declared ‘mutable’ [-fpermissive]
+     mutable Y&   m_right;
+                  ^
+/home/tomas/systemc_2_2_install/include/sysc/datatypes/bit/sc_bit_proxies.h:1196:18: warning: reference ‘m_refs’ cannot be declared ‘mutable’ [-fpermissive]
+     mutable int& m_refs;
+                  ^
+In file included from /home/tomas/systemc_2_2_install/include/sysc/datatypes/bit/sc_lv_base.h:56:0,
+                 from /home/tomas/systemc_2_2_install/include/sysc/datatypes/bit/sc_lv.h:49,
+                 from /home/tomas/systemc_2_2_install/include/sysc/communication/sc_signal_rv.h:61,
+                 from /home/tomas/systemc_2_2_install/include/systemc:74,
+                 from /home/tomas/systemc_2_2_install/include/systemc.h:237,
+                 from main.cpp:8:
+/home/tomas/systemc_2_2_install/include/sysc/datatypes/bit/sc_bv_base.h:237:14: warning: unused parameter ‘i’ [-Wunused-parameter]
+     sc_digit get_cword( int i ) const
+              ^
+/home/tomas/systemc_2_2_install/include/sysc/datatypes/bit/sc_bv_base.h:311:1: warning: unused parameter ‘i’ [-Wunused-parameter]
+ sc_bv_base::set_cword( int i, sc_digit w )
+ ^
+In file included from /home/tomas/systemc_2_2_install/include/sysc/datatypes/bit/sc_lv.h:49:0,
+                 from /home/tomas/systemc_2_2_install/include/sysc/communication/sc_signal_rv.h:61,
+                 from /home/tomas/systemc_2_2_install/include/systemc:74,
+                 from /home/tomas/systemc_2_2_install/include/systemc.h:237,
+                 from main.cpp:8:
+/home/tomas/systemc_2_2_install/include/sysc/datatypes/bit/sc_lv_base.h: In member function ‘sc_dt::sc_logic_value_t sc_dt::sc_lv_base::get_bit(int) const’:
+/home/tomas/systemc_2_2_install/include/sysc/datatypes/bit/sc_lv_base.h:309:47: warning: suggest parentheses around arithmetic in operand of ‘|’ [-Wparentheses]
+     return sc_logic_value_t( m_data[wi] >> bi & SC_DIGIT_ONE |
+                                               ^
+In file included from /home/tomas/systemc_2_2_install/include/sysc/communication/sc_buffer.h:81:0,
+                 from /home/tomas/systemc_2_2_install/include/systemc:60,
+                 from /home/tomas/systemc_2_2_install/include/systemc.h:237,
+                 from main.cpp:8:
+/home/tomas/systemc_2_2_install/include/sysc/communication/sc_signal.h: In instantiation of ‘void sc_core::sc_signal<IF>::trace(sc_core::sc_trace_file*) const [with T = sc_dt::sc_uint<3>]’:
+main.cpp:90:1:   required from here
+/home/tomas/systemc_2_2_install/include/sysc/communication/sc_signal.h:147:10: warning: unused parameter ‘tf’ [-Wunused-parameter]
+     void trace( sc_trace_file* tf ) const
+          ^
+/home/tomas/systemc_2_2_install/include/sysc/communication/sc_signal.h: In instantiation of ‘void sc_core::sc_signal<IF>::trace(sc_core::sc_trace_file*) const [with T = sc_dt::sc_uint<6>]’:
+main.cpp:90:1:   required from here
+/home/tomas/systemc_2_2_install/include/sysc/communication/sc_signal.h:147:10: warning: unused parameter ‘tf’ [-Wunused-parameter]
+/home/tomas/systemc_2_2_install/include/sysc/communication/sc_signal.h: In instantiation of ‘void sc_core::sc_signal<IF>::trace(sc_core::sc_trace_file*) const [with T = sc_dt::sc_uint<16>]’:
+main.cpp:90:1:   required from here
+/home/tomas/systemc_2_2_install/include/sysc/communication/sc_signal.h:147:10: warning: unused parameter ‘tf’ [-Wunused-parameter]
+/home/tomas/systemc_2_2_install/include/sysc/communication/sc_signal.h: In instantiation of ‘void sc_core::sc_signal<IF>::trace(sc_core::sc_trace_file*) const [with T = sc_dt::sc_uint<32>]’:
+main.cpp:90:1:   required from here
+/home/tomas/systemc_2_2_install/include/sysc/communication/sc_signal.h:147:10: warning: unused parameter ‘tf’ [-Wunused-parameter]
+/home/tomas/systemc_2_2_install/include/sysc/communication/sc_signal.h: In instantiation of ‘void sc_core::sc_signal<IF>::trace(sc_core::sc_trace_file*) const [with T = sc_dt::sc_uint<5>]’:
+main.cpp:90:1:   required from here
+/home/tomas/systemc_2_2_install/include/sysc/communication/sc_signal.h:147:10: warning: unused parameter ‘tf’ [-Wunused-parameter]
+make: *** A apagar ficheiro `main.o'
+make: *** [main.o] Interrupção
