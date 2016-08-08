@@ -9,4 +9,4 @@ Arquitetura de Computadores Avançada
 ### Authors
 
 * Rui Oliveira (ruipedrooliveira@ua.pt)
-* Tomás Rodrigues
+* Tomás Rodrigues (tomasrodrigues@ua.pt)
